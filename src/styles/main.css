@@ -1,0 +1,85 @@
+.navbar {
+  border-bottom: 5px solid #dbdbdb;
+  background: white;
+}
+
+.navbar h1 {
+  text-align: center;
+  font-family: 'Fredoka One',cursive;
+  margin-left: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.root_loader {
+  text-align: center;
+  margin-left: 250px;
+}
+
+.table_container {
+  margin-top: 100px;
+}
+
+.table_container h1 {
+  text-align: center;
+}
+
+.employees_table {
+  width: 50%;
+  margin:0 auto;
+}
+
+
+
+.employees_table .action_btn {
+  color: #fff;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+
+.employees_table .remove_btn {
+  background: #dc3545;
+}
+
+.employees_table .remove_btn:hover {
+  background: #ee7782;
+}
+
+.employees_table .edit_btn{ 
+  background: #117a8b;
+}
+.employees_table .edit_btn:hover{ 
+  background: #3d99a8;
+}
+
+.add_button {
+  margin-left: 360px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width:800px){
+    .add_button{
+      margin: 0 auto;
+    }
+}
+
+.add_container {
+  margin-top: 50px;
+}
+
+.add_employee_title {
+  margin-top: 100px;
+}
+
+.chart_container {
+  margin-top: 50px;
+}
+
+.chart_container h1 {
+  text-align: center;
+}
+
+.edit_container {
+  margin-top: 100px;
+}
